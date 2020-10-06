@@ -1,0 +1,186 @@
+#container{
+    position: absolute; 
+    top: 50%; 
+    margin-top: -200px; 
+    left: 0; 
+    width: 100%;
+}
+
+#content{
+    width: 600px; 
+    margin-left: auto; 
+    margin-right: auto;
+    height: 300px;
+    text-align: center;
+    position: relative; 
+}
+
+nav {
+    margin-top: 5px;
+    width: 100%;
+}
+
+#about{
+    margin: 7px 0 0 10px;
+    padding: 5px;
+    position: absolute;
+    color: #b2b2b2;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+#store{
+    margin: 7px 0 0 15px;
+    padding: 5px; 
+    position: absolute;
+    left: 50px;
+    color: #b2b2b2;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+#header-right{
+    margin: 7px 0 0 15px;
+    padding: 5px; 
+    position: absolute;
+    right: 10px;
+}
+
+#gmail{
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #5e5e5e;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+
+#images{
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #5e5e5e;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#menu-img {
+    margin-left: 5px;
+    margin-right: 5px;
+    width:18px;
+    height:18px;
+}
+
+#sign-in{
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #5e5e5e;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#about:hover, #store:hover, #gmail:hover, #images:hover, #sign-in:hover{
+    text-decoration: underline;
+}
+
+#search-bar {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 550px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 30px;
+    border-color:#dfe1e5;
+}
+
+#search-bar:hover{ 
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.1);
+    border-color: white;
+}
+
+#search-button1, #search-button2 {
+    margin-top: 20px;
+    width: 150px;
+    height: 36px;
+    color: #5F6368;
+    padding: 0px 16px;
+    font-size: 14px;
+    margin: 11px 4px;
+    background-color: #f4f4f4;
+    border: 1px solid;
+    border-color: #f2f2f2;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer; 
+    user-select: none;
+}
+
+#search-button1:hover, #search-button2:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+
+#search-icon {
+    position: absolute;
+    margin: 4px;
+    height: 16px;
+    width: 16px;
+    bottom: 150px; 
+    left: 32px;
+}
+
+#mic-icon {
+    position: absolute;
+    margin: 4px;
+    height: 23px; 
+    width: 23px;
+    bottom: 147px;
+    right:30px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #f2f2f2;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content a{
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #5f6367;
+}
+
+#footer-left{
+    margin-left:30px;
+}
+
+#footer-right{
+    margin-right:30px;
+}
+
+
+#footer-left a, #footer-right a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-content a:hover{
+    text-decoration: underline;
+}
